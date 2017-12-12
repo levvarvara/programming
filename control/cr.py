@@ -46,6 +46,4 @@ for m in list_user:
         print(word + " - " + examp + " - " + defen)
     else:
         print("Слова "+m+" нет в словаре")
-
-
-
+    flag = False
