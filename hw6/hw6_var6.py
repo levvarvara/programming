@@ -1,3 +1,4 @@
+#Левченко Варвара, группа 3, вариант 6
 import random
    
 def open_files():
