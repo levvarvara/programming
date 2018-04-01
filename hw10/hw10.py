@@ -1,3 +1,4 @@
+#Левченко Варвара, группа 3, вариант 6
 import re
 def get_text():
     with open('wiki2.html', encoding='utf-8') as f:
