@@ -6,7 +6,7 @@ def get_text():
     return text
 
 def regular(text):
-    res = re.search(r'>Отряд.*?<a.*?>(.*?)</a>',text)
+    res = re.search(r'<table class="infobox".*?Отряд.*?<a.*?>(.*?)</a>',text,re.DOTALL)
     res = res.group(1)
 
     return res
