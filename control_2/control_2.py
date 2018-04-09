@@ -50,7 +50,6 @@ def main():
     count = str(counting(hed))
     hed_to_file(count)
     dict_to_file(dictionary(get_text()))
-    #print(dictionary(get_text()))
     printing()
     
 
